@@ -10,12 +10,12 @@ emotionRadios.addEventListener('change', highlightCheckedOption)
 memeModalCloseBtn.addEventListener('click', closeModal)
 getImageBtn.addEventListener('click', renderDog)
 
-// Close modal when clicking outside of it
-memeModal.addEventListener('click', function(e) {
-    if (e.target === memeModal) {
-        closeModal()
-    }
-})
+// // Close modal when clicking outside of it
+// memeModal.addEventListener('click', function(e) {
+//     if (e.target === memeModal) {
+//         closeModal()
+//     }
+// })
 
 
 
